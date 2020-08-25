@@ -6,8 +6,8 @@ function map(x,y){
 return r;
 }
 
-function reduce(x,y,c=0){
-  let r=c;
+function reduce(x,y){
+  let r=0;
   for (let i =0; i<x.length; i++){
     if (typeof(x[i])==='string' || typeof(x[i])==='boolean'){
    b=1;
